@@ -1,0 +1,69 @@
+body{
+    background-color: aqua;
+}
+
+.xx input {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 20rem;
+    top: 5rem;
+    font-size: 2rem;
+    background-color: rgb(255, 187, 0);
+
+}
+form{
+    background-color: black;
+    justify-content: center;
+    padding: 10rem 0 0 0;
+}
+.xx .btn{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    color: aqua;
+    background-color: black;
+    left: 35rem;
+    margin-top: 2rem;
+}
+.xx .btn:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    transition: 0.25s;
+    color: black;
+}
+h1{
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-left: 25rem;
+}
+.follow a{
+    text-decoration: none;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    left: 30.5rem;
+    margin-bottom: 1rem;
+}
+.follow a:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+}
+.follow h3{
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-right: 2rem;
+    margin-top: 15rem;
+}

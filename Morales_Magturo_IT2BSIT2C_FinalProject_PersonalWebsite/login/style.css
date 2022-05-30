@@ -1,0 +1,93 @@
+body{
+    margin-top: 5rem;
+    text-align: center;
+    background-color: black;
+}
+.container .email{
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #15f4ee;
+    padding: 1rem 3rem 1rem 5rem;
+    font-size: .8rem;
+    border-radius: 15px;
+    background: transparent;
+    color: #15f4ee;
+}
+.container .pass{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8rem;
+    padding: 1rem 3rem 1rem 5rem;
+    border: 2px solid #15f4ee;
+    border-radius: 15px;
+    color: #15f4ee;
+    background: transparent;
+}
+
+.login h4{
+    margin-top: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8rem;
+    color: #15f4ee;
+}
+.login button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    padding: .5rem 2rem .5rem 2rem;
+    border: 2px solid #15f4ee;
+    color: #15f4ee;
+    background: transparent;
+}
+.login button:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    transition: .5s;
+    color: black;
+    cursor: pointer;
+}
+.btn a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    position: relative;
+    top: 3rem;
+    text-decoration: none;
+    border: 2px solid #15f4ee;
+    padding: .3rem 2rem .3rem 2rem;
+    color: #15f4ee;
+}
+.btn a:hover{
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}
+.follow h3{
+    position: relative;
+    right: 10rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.follow a{
+    position: relative;
+    right: .5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: .5rem .5rem .5rem .5rem;
+    margin: .5rem .5rem .5rem .5rem;
+    color: aqua;
+    border: 2px solid aqua;
+    margin-right: 1rem;
+}
+.follow a:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}

@@ -1,0 +1,167 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #15f4ee;
+    text-decoration: underline;
+    letter-spacing: 6px;
+    text-align: center;
+}
+.kyelsport img{
+    position: relative;
+    left: 31rem;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.kyelsport h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+}
+.base img{
+    position: relative;
+    left: 20rem;
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-top: 5rem;
+}
+.base p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    margin-left: 22.5rem;
+}
+.basket img{
+    position: relative;
+    margin-left: 50rem;
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    bottom: 15.5rem;
+}
+.basket p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    margin-left: 52rem;
+    position: relative;
+    bottom: 15.6rem;
+}
+
+.joelsport img{
+    position: relative;
+    left: 31rem;
+    bottom: 13rem;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.joelsport h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    position: relative;
+    bottom: 13rem;
+}
+
+.chess img{
+    position: relative;
+    margin-left: 20rem;
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    bottom: 10rem;
+}
+.chess p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    margin-left: 23.8rem;
+    position: relative;
+    bottom: 10rem;
+}
+.basket2 img{
+    position: relative;
+    margin-left: 50rem;
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    bottom: 25.9rem;
+}
+.basket2 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    margin-left: 52rem;
+    position: relative;
+    bottom: 25.6rem;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #15f4ee;
+    padding: .5rem 2rem .5rem 2rem;
+    color: #15f4ee;
+    position: relative;
+    bottom: 20rem;
+    margin-left: 36rem;
+}
+
+.btn a:hover{
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}
+
+.follow h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    position: relative;
+    bottom: 10rem;
+    margin-left: 36rem;
+}
+.follow a{
+    position: relative;
+    bottom: 10rem;
+    left: 32.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: .5rem .5rem .5rem .5rem;
+    margin: .5rem .5rem .5rem .5rem;
+    color: aqua;
+    border: 2px solid aqua;
+}
+.follow a:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}

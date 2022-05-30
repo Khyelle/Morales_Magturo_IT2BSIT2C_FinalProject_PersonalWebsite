@@ -1,0 +1,210 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-decoration: underline;
+    letter-spacing: 6px;
+    color: #15f4ee;
+    text-align: center;
+}
+.talent img{
+    position: relative;
+    left: 31rem;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.talent h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+}
+.guitar{
+    display: inline-flex;
+}
+.guitar img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+.guitar p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    margin-left: 3rem;
+    position: relative;
+    top: 3rem;
+}
+.guitar h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    position: relative;
+    top: 7.5rem;
+    margin-left: -10.5rem;
+
+}
+.drums{
+    display: inline-flex;
+}
+.drum img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+    margin-top: 5rem; 
+}
+.drum p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    margin-left: 28.7rem;
+    position: relative;
+    bottom: 13rem;
+}
+.drum h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    position: relative;
+    bottom: 12rem;
+    margin-left: 28.7rem;
+
+}
+.talents img{
+    position: relative;
+    left: 31rem;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.talents h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+}
+.sing{
+    display: inline-flex;
+}
+.sing img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+    margin-top: 5rem; 
+}
+.sing p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    margin-left: 3rem;
+    position: relative;
+    top: 3rem;
+}
+.sing h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    position: relative;
+    top: 7.5rem;
+    margin-left: -5.6rem;
+}
+.dance{
+    display: inline-flex;
+}
+
+.dance img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+    margin-top: 5rem; 
+}
+.dance p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    margin-left: 3rem;
+    position: relative;
+    top: 3rem;
+
+}
+.dance h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    position: relative;
+    top: 7.5rem;
+    margin-left: -5.6rem;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #15f4ee;
+    padding: .5rem 2rem .5rem 2rem;
+    color: #15f4ee;
+    position: relative;
+    top: 5rem;
+    margin-left: 38rem;
+}
+
+.btn a:hover{
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}
+
+.follow h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    position: relative;
+    top: 10rem;
+    margin-left: 38rem;
+}
+.follow a{
+    position: relative;
+    top: 10rem;
+    left: 35rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: .5rem .5rem .5rem .5rem;
+    margin: .5rem .5rem .5rem .5rem;
+    color: aqua;
+    border: 2px solid aqua;
+    margin-bottom: 5rem;
+}
+.follow a:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}

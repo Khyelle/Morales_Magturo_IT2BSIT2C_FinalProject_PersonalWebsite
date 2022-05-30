@@ -1,0 +1,234 @@
+body{
+text-align: left;
+background-color: black;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #15f4ee;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.kyel_hobbies img{
+    position: relative;
+    left: 30rem;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.kyel_hobbies h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.hobby1 img{
+    position: relative;
+    left: 8rem;
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.hobby1 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+    position: relative;
+    margin-left: 10rem;
+}
+.hobby1 h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+    position: relative;
+    margin-left: 2rem;
+}
+.hobby2 img{
+    position: relative;
+    left: 37rem;
+    bottom: 18rem;
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.hobby2 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+    position: relative;
+    margin-left: 40.5rem;
+    position: relative;
+    bottom: 18rem;
+}
+.hobby2 h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+    position: relative;
+    margin-left: 25rem;
+    position: relative;
+    bottom: 16rem;
+}
+.hobby3 img{
+    position: relative;
+    left: 65rem;
+    bottom: 36rem;
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.hobby3 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+    position: relative;
+    margin-left: 67rem;
+    position: relative;
+    bottom: 36rem;
+}
+.hobby3 h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+    position: relative;
+    margin-left: 48rem;
+    position: relative;
+    bottom: 36.2rem;
+}
+
+.joel_hobbies img{
+    position: relative;
+    left: 30rem;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    bottom: 23rem;
+}
+.joel_hobbies h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 23.5rem;
+}
+
+.hobbies4 img{
+    position: relative;
+    left: 20rem;
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    bottom: 20rem;
+}
+.hobbies4 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+    position: relative;
+    margin-left: 20rem;
+    position: relative;
+    bottom: 20rem;
+}
+.hobbies4 h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+    position: relative;
+    margin-left: 3rem;
+    position: relative;
+    bottom: 20rem;
+}
+.hobbies5 img{
+    position: relative;
+    left: 45rem;
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    bottom: 38.1rem;
+}
+.hobbies5 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+    position: relative;
+    margin-left: 46rem;
+    position: relative;
+    bottom: 38rem;
+}
+.hobbies5 h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+    position: relative;
+    margin-left: 43rem;
+    position: relative;
+    bottom: 38rem;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #15f4ee;
+    padding: .5rem 2rem .5rem 2rem;
+    color: #15f4ee;
+    position: relative;
+    bottom: 30rem;
+    margin-left: 36rem;
+}
+.btn a:hover{
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}
+
+.follow h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    position: relative;
+    bottom: 20rem;
+    margin-left: 36rem;
+}
+.follow a{
+    position: relative;
+    bottom: 19rem;
+    left: 32.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: .5rem .5rem .5rem .5rem;
+    margin: .5rem .5rem .5rem .5rem;
+    color: aqua;
+    border: 2px solid aqua;
+}
+.follow a:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}

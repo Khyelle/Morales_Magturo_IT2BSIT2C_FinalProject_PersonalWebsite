@@ -1,0 +1,97 @@
+body{
+background-color: black;
+text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #15f4ee;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.kyel img{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.kyel h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    letter-spacing: 6px;
+}
+.info p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+
+}
+.joel img{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-top: 5rem;
+}
+.joel h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+    letter-spacing: 6px;
+}
+.joel_info p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #15f4ee;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #15f4ee;
+    padding: .5rem 2rem .5rem 2rem;
+    color: #15f4ee;
+    position: relative;
+    top: 5rem;
+
+}
+.btn a:hover{
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}
+
+.follow h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    position: relative;
+    top: 10rem;
+    margin-left: 0;
+}
+.follow a{
+    position: relative;
+    top: 9rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: .5rem .5rem .5rem .5rem;
+    margin: .5rem .5rem .5rem .5rem;
+    color: aqua;
+    border: 2px solid aqua;
+}
+.follow a:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}

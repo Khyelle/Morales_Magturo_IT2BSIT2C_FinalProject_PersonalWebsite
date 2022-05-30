@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.g a{
+    position: relative;
+    top: 15rem;
+    left: 25rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 2px solid #15f4ee;
+    padding: .5rem 2rem .5rem 2rem;
+    color: #15f4ee;
+    
+}
+.g a:hover{
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+.container{
+    position: relative;
+    left: 6rem;
+    margin-bottom: 5rem;
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    font-weight: bold;
+    position: relative;
+}
+.container .title::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    left: auto;
+    bottom: 0;
+    background: linear-gradient(135deg, #15f4ee, #3498db);
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom: #3498db;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #3498db;
+}
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: bold;
+}
+form .gender-details .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+.gender-details .category label{
+    display: flex;
+    align-items: center;
+}
+.gender-details .category .dot{
+    height: 15px;
+    width: 15px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+form input[type="radio"]{
+    display: none;
+}
+form .button{
+    height: 45px;
+    width: 45px 0;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    background: linear-gradient(135deg, #15f4ee, #3498db);
+}
+form .button input:hover{
+    background: linear-gradient(-135deg, #15f4ee, #3498db);
+}
+@media (max-width: 584px){
+    .container{
+        max-width: 500px;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .gender-details .category{
+        width: 100%;
+    }
+    .container form .user-details{
+        max-height: 300px;
+        overflow-y: scroll;
+    }    
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
+}
+
+.follow h3{
+    position: relative;
+    right: 23.7rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-right: -10rem;
+    margin-top: 45rem;
+    margin-bottom: 1rem;
+}
+.follow a{
+    position: relative;
+    right: 18.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: .5rem .5rem .5rem .5rem;
+    margin: .5rem .5rem .5rem .5rem;
+    color: aqua;
+    border: 2px solid aqua;
+    margin-right: 1rem;
+}
+.follow a:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}

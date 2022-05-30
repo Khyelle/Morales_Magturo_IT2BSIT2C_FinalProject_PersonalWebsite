@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<body>
+	<title>Personal Website</title>
+		<content>
+
+			<education-page>
+				<title>Educational Background</title>
+
+				<content>
+					index.html
+					img
+					style.css					
+				</content>
+
+			</education-page>
+
+			<about-us-page>
+				
+				<title>About Us</title>
+
+				<content>
+					about_us.html
+					obito.jpg
+					pain.jpg
+					us.jpg
+					style.css					
+				</content>
+			</about-us-page>
+
+			<contact-page>
+				
+				<title>Contact</title>
+
+				<content>
+					index.html
+					joel.jpg
+					kyel.jpg
+					style.css					
+				</content>
+
+			</contact-page>
+
+			<login-page>
+				
+				<title>Log In</title>
+
+				<content>
+					login.html
+					style.css					
+				</content>
+
+			</login-page>
+
+			<signup-page>
+								
+				<title>Sign Up</title>
+
+				<content>
+					signup.html
+					style.css					
+				</content>
+
+			</signup-page>
+
+			<talent-page>
+								
+
+				<title>Talent</title>
+
+				<content>
+					index.html
+					img
+					style.css					
+				</content>
+
+			</talent-page>
+
+			<hobby-page>
+						
+				<title>Hobbies</title>
+
+				<content>
+					index.html
+					img
+					style.css					
+				</content>
+
+			</hobby-page>
+
+			<sport-page>
+				
+				<title>Sport</title>
+
+				<content>
+					index.html
+					img
+					style.css					
+				</content>
+
+			</sport-page>
+
+			<upload-page>
+				
+				<title>Website Portfolio</title>
+
+				<content>
+					uploads
+					index.php
+					style.css
+					upload.php					
+				</content>
+
+			</upload-page>
+
+			<profile-page>
+			
+				<title>Profile</title>
+
+				<content>
+					index.html
+					joel.jpg
+					kyel.jpg
+					style.css					
+				</content>
+
+			</profile-page>
+		</content>
+
+
+
+
+
+
+
+</body>

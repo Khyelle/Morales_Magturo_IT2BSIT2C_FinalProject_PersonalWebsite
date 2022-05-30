@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #15f4ee;
+    text-align: center;
+}
+
+.contact img{
+    position: relative;
+    left: 18rem;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 60px;
+    text-align: center;
+    top: 3rem;
+}
+
+.contact1 img{
+    position: relative;
+    bottom: 23.8rem;
+    left: 50rem;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 60px;
+    text-align: center;
+    
+}
+.contact h3{
+    text-decoration: underline;
+    position: relative;
+    margin-left: 14rem;
+    top: 2rem;
+    color: #15f4ee;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact1 h3{
+    position: relative;
+    bottom: 24.8rem;
+    margin-left: 47.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    color: #15f4ee;
+    font-size: 2rem;
+}.contact1 p{
+    position: relative;
+    margin-left: 50rem;
+    bottom: 25rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #15f4ee;
+}
+.contact p{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15rem;
+    top: 1.8rem;
+    color: #15f4ee;
+}
+
+.btn a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #15f4ee;
+    border: 2px solid #15f4ee;
+    padding: .5rem 3rem .5rem 3rem;
+    position: relative;
+    bottom: 15rem;
+    margin-left: 37rem;
+}
+.btn a:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    width: 150px;
+    transition: 0.25s;
+    color: black;
+}
+.follow h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    position: relative;
+    margin-left: 37rem;
+}
+.follow a{
+    position: relative;
+    left: 33rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: .5rem .5rem .5rem .5rem;
+    margin: .5rem .5rem .5rem .5rem;
+    color: aqua;
+    border: 2px solid aqua;
+}
+.follow a:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}

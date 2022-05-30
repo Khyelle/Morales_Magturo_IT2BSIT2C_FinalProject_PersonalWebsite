@@ -1,0 +1,250 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    color: #15f4ee;
+    letter-spacing: 6px;
+}
+.kyeleduc img{
+    position: relative;
+    left: 31rem;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.kyeleduc h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+}
+.college {
+    display: inline-flex;
+}
+.college img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+}
+.college p{
+    position: relative;
+    top: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color:#15f4ee;
+    margin-left: 1rem;
+    letter-spacing: 3px;
+}
+.sr-high{
+    display: inline-flex;
+}
+.sr-high img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+.sr-high p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color:#15f4ee;
+    margin-top: 7.7rem;
+    margin-left: 1rem;
+}
+.high{
+    display: inline-flex;
+}
+.high img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+.high p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color:#15f4ee;
+    margin-top: 7.7rem;
+    margin-left: 1rem;
+}
+.elem{
+    display: inline-flex;
+}
+.elem img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+.elem p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color:#15f4ee;
+    margin-top: 7.7rem;
+    margin-left: 1rem
+}
+
+.joeleduc img{
+    margin-top: 5rem;
+    position: relative;
+    left: 31rem;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+}
+.joeleduc h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: #15f4ee;
+}
+.college2 {
+    display: inline-flex;
+}
+.college2 img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+}
+.college2 p{
+    position: relative;
+    top: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color:#15f4ee;
+    margin-left: 1rem;
+    letter-spacing: 3px;
+}
+.sr-high2{
+    display: inline-flex;
+}
+.sr-high2 img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+.sr-high2 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color:#15f4ee;
+    margin-top: 7.7rem;
+    margin-left: 1rem;
+}
+.high2{
+    display: inline-flex;
+}
+.high2 img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+.high2 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color:#15f4ee;
+    margin-top: 7.7rem;
+    margin-left: 1rem;
+}
+.elem2{
+    display: inline-flex;
+}
+.elem2 img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #15f4ee;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 50rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+.elem2 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color:#15f4ee;
+    margin-top: 7.7rem;
+    margin-left: 1rem
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #15f4ee;
+    padding: .5rem 2rem .5rem 2rem;
+    color: #15f4ee;
+    position: relative;
+    top: 5rem;
+    margin-left: 36rem;
+}
+
+.btn a:hover{
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}
+
+.follow h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    position: relative;
+    top: 10rem;
+    margin-left: 36rem;
+}
+.follow a{
+    position: relative;
+    top: 10rem;
+    left: 32.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: .5rem .5rem .5rem .5rem;
+    margin: .5rem .5rem .5rem .5rem;
+    color: aqua;
+    border: 2px solid aqua;
+    margin-bottom: 5rem;
+}
+.follow a:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+    cursor: pointer;
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    color: black;
+}
